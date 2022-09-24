@@ -319,7 +319,7 @@ def split(image):
     return res
 
 
-# 3个灰度图像合并成一个彩色图像  image是数组
+# 3个灰度图像合并成一个彩色图像  images是数组
 def combine(images):
     width = images[0]['width']
     height = images[0]['height']
